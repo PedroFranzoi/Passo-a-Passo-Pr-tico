@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Login</title>
+    <title>Registrar</title>
 </head>
 <body>
     <div class="container">
         <div class="box form-box">
-            <header>Login</header>
+            <header>Registrar</header>
             <form action="">
                 <div class="filed input">
                     <label for="username">Username</label>
@@ -17,8 +17,18 @@
                 </div>
 
                 <div class="filed input">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" autocomplete="off" required>
+                </div>
+
+                <div class="filed input">
+                    <label for="idade">Idade</label>
+                    <input type="number" name="idade" id="idade" autocomplete="off" required>
+                </div>
+
+                <div class="filed input">
                     <label for="password">Password</label>
-                    <input type="password" name="password" id="password" autocomplete="off" required>
+                    <input type="password" name="password" id="password" required>
                 </div>
 
                 <div class="filed">
@@ -26,7 +36,7 @@
                 </div>
 
                 <div class="links">
-                    Não tem uma conta? <a href="registrar.html">Criar conta</a>
+                    Já é membro? <a href="index.php">Sair</a>
                 </div>
             </form>
         </div>

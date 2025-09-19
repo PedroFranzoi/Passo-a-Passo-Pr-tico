@@ -4,12 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <title>Registrar</title>
+    <title>Trocar perfil</title>
 </head>
 <body>
+    <div class="nav">
+        <div class="logo">
+            <p> <a href="home.php">Logo</a></p>
+        </div>
+
+        <div class="right-links">
+            <a href="#">Alterar perfil</a>
+            <a href="logout.php"> <button class="btn">Sair</button> </a>
+        </div>
+
+    </div>
     <div class="container">
         <div class="box form-box">
-            <header>Registrar</header>
+            <header>Trocar perfil</header>
             <form action="">
                 <div class="filed input">
                     <label for="username">Username</label>
@@ -26,17 +37,8 @@
                     <input type="number" name="idade" id="idade" autocomplete="off" required>
                 </div>
 
-                <div class="filed input">
-                    <label for="password">Password</label>
-                    <input type="password" name="password" id="password" required>
-                </div>
-
                 <div class="filed">
-                    <input type="submit" class="btn" name="submit" value="Login" required>
-                </div>
-
-                <div class="links">
-                    Já é membro? <a href="index.html">Sair</a>
+                    <input type="submit" class="btn" name="submit" value="Update" required>
                 </div>
             </form>
         </div>
